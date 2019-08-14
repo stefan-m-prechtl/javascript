@@ -9,5 +9,4 @@ const promise = new Promise((resolve, reject) => {
 
 promise.then(value => console.log("ok: " + value)).catch(error => console.log("error " + error));
 
-let sofort = Promise.resolve("Sofort ok");
-console.log(sofort.then.value);
+//let sofort = Promise.resolve("Sofort ok");
